@@ -108,7 +108,6 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
-TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR := true
 
 # Treble
 BOARD_VNDK_VERSION := current
@@ -135,5 +134,6 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
+include device/mediatek/sepolicy/sepolicy.mk
 
 -include vendor/realme/lucifer/BoardConfigVendor.mk
