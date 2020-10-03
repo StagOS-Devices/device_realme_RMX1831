@@ -6,3 +6,7 @@
 
 # Touchpanel
 /proc/touchpanel/tp_fw_update        u:object_r:proc_touchpanel:s0
+
+# GPU Labels
+/dev/mali.* u:object_r:gpu_device:s0
+/dev/mtk_disp.* u:object_r:graphics_device:s0
