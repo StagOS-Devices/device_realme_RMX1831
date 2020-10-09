@@ -34,7 +34,7 @@ PRODUCT_MODEL := realme U1
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 TARGET_VENDOR := realme
 TARGET_VENDOR_PRODUCT_NAME := RMX1831
-PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200605.001 6392402 release-keys"
+PRIVATE_BUILD_DESC="full_oppo6771_18611-user 9 PPR1.180610.011 eng.root.20200915.143154 release-keys"
     
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
 
