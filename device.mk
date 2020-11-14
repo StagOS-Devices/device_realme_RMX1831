@@ -82,15 +82,13 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.base@1.0_system \
     android.hidl.manager@1.0 \
-    android.hidl.manager@1.0_system
+    android.hidl.manager@1.0_system \
+    libhidltransport \
+    libhwbinder
 
 # KPOC
 PRODUCT_PACKAGES += \
     libsuspend
-
-# Symbols 
-PRODUCT_PACKAGES += \
-    libshim_showlogo
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -145,3 +143,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/manifest.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/vintf/manifest.xml
 
 $(call inherit-product, vendor/realme/RMX1831/RMX1831-vendor.mk)
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 28
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
