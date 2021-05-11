@@ -109,6 +109,9 @@ TARGET_USES_MKE2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 AB_OTA_UPDATER := false
 
+# Animation for offline charging
+TARGET_PIXEL_CHARGE_ANIM := true
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
