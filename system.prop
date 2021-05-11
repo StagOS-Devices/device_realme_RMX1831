@@ -253,3 +253,5 @@ persist.sys.wfd.virtual=0
 
 # screen recorder lag
 debug.sf.enable_hwc_vds=0
+debug.sdm.support_writeback=0
+persist.sys.wfd.nohdcp=1
