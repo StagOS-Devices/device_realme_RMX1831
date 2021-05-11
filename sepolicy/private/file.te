@@ -6,9 +6,3 @@ type sysfs_vbus, fs_type, sysfs_type;
 type sysfs_pump_express, fs_type, sysfs_type;
 type persist_file, file_type;
 type sysfs_boot_mode, fs_type, sysfs_type;
-
-type proc_cpufreq, fs_type, proc_type;
-type proc_gpufreq, fs_type, proc_type;
-type proc_ppm, fs_type, proc_type;
-type sysfs_fps, sysfs_type, fs_type;
-type sysfs_ged, sysfs_type, fs_type;

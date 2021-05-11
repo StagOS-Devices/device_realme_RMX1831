@@ -76,8 +76,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.recovery.mt6771.rc \
     init.recovery.usb.rc \
-    set_zram.sh \
-    perf_profile.sh
+    set_zram.sh
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -89,21 +88,6 @@ PRODUCT_PACKAGES += \
 # GCamGo
 PRODUCT_PACKAGES += \
     GCam
-
-# Via
-PRODUCT_PACKAGES += \
-    Via
-
-#Doze
-PRODUCT_PACKAGES += \
-    CustomDoze
-
-# Removed Packages
-PRODUCT_PACKAGES += \
-    RemovePackages \
-    RemovePackages-1 \
-    RemovePackages-2 \
-    RemovePackages-3
 
 # HIDL
 PRODUCT_PACKAGES += \
